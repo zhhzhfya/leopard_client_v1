@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\svn_logs.Form1.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\svn_logs.Form2.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\svn_logs.Form3.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\svn_logs.Form4.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\svn_logs.Form5.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Properties.Resources.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Form1.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Form2.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Form3.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Form4.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.framework\frame\obj\Release\frame.Form5.resources

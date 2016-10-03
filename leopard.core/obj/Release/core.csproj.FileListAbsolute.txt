@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\bin\Release\core.dll
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\bin\Release\core.pdb
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\obj\Release\core.Properties.Resources.resources
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\obj\Release\core.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\obj\Release\core.dll
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\core\obj\Release\core.pdb
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\leopard.runtime\core.dll
+C:\Users\Administrator\Desktop\svn_logs\leopard.core\leopard.runtime\core.pdb

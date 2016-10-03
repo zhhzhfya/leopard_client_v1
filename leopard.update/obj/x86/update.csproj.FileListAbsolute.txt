@@ -1,0 +1,12 @@
+E:\work\workspaces_c#\leopard_client_v1\leopard.update\bin\x86\update.exe
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\update.exe
+E:\work\workspaces_c#\leopard_client_v1\leopard.update\obj\x86\upate.UpdateForm.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.update\obj\x86\update.Properties.Resources.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.update\obj\x86\update.csproj.GenerateResource.Cache
+E:\work\workspaces_c#\leopard_client_v1\leopard.update\obj\x86\update.exe
+C:\work\leopard_client_v1\leopard.runtime\update.exe.config
+C:\work\leopard_client_v1\leopard.runtime\update.exe
+C:\work\leopard_client_v1\leopard.update\obj\x86\upate.UpdateForm.resources
+C:\work\leopard_client_v1\leopard.update\obj\x86\update.Properties.Resources.resources
+C:\work\leopard_client_v1\leopard.update\obj\x86\update.csproj.GenerateResource.Cache
+C:\work\leopard_client_v1\leopard.update\obj\x86\update.exe

@@ -1,0 +1,16 @@
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\bin\Release\deploy.tools.exe
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\bin\Release\deploy.tools.pdb
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\ResolveAssemblyReference.cache
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\deploy.tools.Properties.Resources.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\deploy.tools.csproj.GenerateResource.Cache
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\deploy.tools.exe
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\deploy.tools.pdb
+E:\work\workspaces_c#\leopard_client_v1\leopard.frame\deploy.tools\obj\Release\deploy.tools.DeployMain.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\deploy.tools.exe
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\deploy.tools.pdb
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\ResolveAssemblyReference.cache
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\deploy.tools.DeployMain.resources
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\deploy.tools.Properties.Resources.resources
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\deploy.tools.csproj.GenerateResource.Cache
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\deploy.tools.exe
+E:\work\workspaces_c#\leopard_client_v1\deploy.tools\obj\Release\deploy.tools.pdb

@@ -1,0 +1,10 @@
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.csprojResolveAssemblyReference.cache
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.Form1.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.Form2.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.Form3.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.Form4.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.Form5.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\frame.Form6.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\frame.MainFrame.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\frame.Properties.Resources.resources
+C:\work\leopard_client_v1\leopard.frame\obj\x64\x86\framework.csproj.GenerateResource.Cache

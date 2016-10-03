@@ -1,0 +1,10 @@
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\leopard.utils.dll.config
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\leopard.utils.dll
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\leopard.utils.pdb
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\Hessiancsharp.dll
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\SourceGrid.dll
+C:\work\leopard_client_v1\leopard.utils\bin\x64\Debug\System.Data.SQLite.dll
+C:\work\leopard_client_v1\leopard.utils\obj\x64\Debug\leopard.utils.Properties.Resources.resources
+C:\work\leopard_client_v1\leopard.utils\obj\x64\Debug\leopard.utils.csproj.GenerateResource.Cache
+C:\work\leopard_client_v1\leopard.utils\obj\x64\Debug\leopard.utils.dll
+C:\work\leopard_client_v1\leopard.utils\obj\x64\Debug\leopard.utils.pdb

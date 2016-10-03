@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Form1.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Form2.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Form3.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Form4.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Form5.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.Properties.Resources.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\frame.exe
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\frame.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.exe
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.frame\obj\Debug\frame.pdb

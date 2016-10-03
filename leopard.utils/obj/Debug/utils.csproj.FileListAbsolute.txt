@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\bin\Debug\leopard.utils.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\bin\Debug\leopard.utils.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\bin\Debug\Hessiancsharp.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.Properties.Resources.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\obj\Debug\utils.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\leopard.utils.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\leopard.utils.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\leopard.utils.dll.config

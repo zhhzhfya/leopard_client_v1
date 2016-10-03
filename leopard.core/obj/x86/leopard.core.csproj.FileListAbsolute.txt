@@ -1,0 +1,12 @@
+E:\work\workspaces_c#\leopard_client_v1\leopard.core\bin\x86\leopard.core.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\leopard.core.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.core\obj\x86\leopard.core.Properties.Resources.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.core\obj\x86\leopard.core.csproj.GenerateResource.Cache
+E:\work\workspaces_c#\leopard_client_v1\leopard.core\obj\x86\leopard.core.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.core\obj\x86\leopard.core.csprojResolveAssemblyReference.cache
+C:\work\leopard_client_v1\leopard.runtime\leopard.core.dll.config
+C:\work\leopard_client_v1\leopard.runtime\leopard.core.dll
+C:\work\leopard_client_v1\leopard.core\obj\x86\leopard.core.Properties.Resources.resources
+C:\work\leopard_client_v1\leopard.core\obj\x86\leopard.core.csproj.GenerateResource.Cache
+C:\work\leopard_client_v1\leopard.core\obj\x86\leopard.core.dll
+C:\work\leopard_client_v1\leopard.core\obj\x86\leopard.core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\bin\x86\leopard.utils.dll.config
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\bin\x86\leopard.utils.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\bin\x86\Hessiancsharp.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\bin\x86\System.Data.SQLite.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\leopard.utils.dll.config
+E:\work\workspaces_c#\leopard_client_v1\leopard.runtime\leopard.utils.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.Properties.Resources.resources
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csproj.GenerateResource.Cache
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.dll
+E:\work\workspaces_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csprojResolveAssemblyReference.cache
+C:\work\leopard_client_v1\leopard.runtime\leopard.utils.dll.config
+C:\work\leopard_client_v1\leopard.runtime\leopard.utils.dll
+C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.Properties.Resources.resources
+C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csproj.GenerateResource.Cache
+C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.dll
+C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csprojResolveAssemblyReference.cache

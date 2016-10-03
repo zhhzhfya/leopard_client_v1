@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\bin\Debug\core.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\bin\Debug\core.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\obj\Debug\core.Properties.Resources.resources
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\obj\Debug\core.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\obj\Debug\core.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.core\obj\Debug\core.pdb
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\core.dll
+C:\Users\Administrator\Desktop\leopard_client_v1\leopard.runtime\core.pdb
