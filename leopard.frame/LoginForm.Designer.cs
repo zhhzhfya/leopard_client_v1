@@ -1,6 +1,6 @@
 ﻿namespace framework
 {
-    partial class Form3
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -239,12 +239,12 @@
             this.linkLabel3.LinkColor = System.Drawing.SystemColors.HotTrack;
             this.linkLabel3.Location = new System.Drawing.Point(14, 286);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(127, 17);
+            this.linkLabel3.Size = new System.Drawing.Size(117, 17);
             this.linkLabel3.TabIndex = 7;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "http://ushayden.com";
+            this.linkLabel3.Text = "http://appsoft.com";
             // 
-            // Form3
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -259,9 +259,10 @@
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form3";
+            this.Name = "LoginForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

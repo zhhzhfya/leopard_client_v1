@@ -7,7 +7,7 @@ namespace framework.utils
     // svn_logs.utils.HessianService
     public interface HessianService
     {
-        object[] findResultBySql(string sql);
+        object[] findResultBySql(string sql, bool withColumn);
         object[] findResultByPage(string sql, int page, int count);
     }
 }

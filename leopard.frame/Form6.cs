@@ -63,7 +63,7 @@ namespace frame
 
         private void 重新登录ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 f = new Form3();
+            LoginForm f = new LoginForm();
             f.Show();
         }
 

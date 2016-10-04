@@ -1,4 +1,5 @@
 ﻿using Excel;
+using leopard.utils.utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ namespace frame
 {
     public partial class DataToolsForm : Form
     {
-        
+        DataTable dt = new DataTable();
         public DataToolsForm()
         {
             InitializeComponent();
@@ -26,6 +27,8 @@ namespace frame
             dialog.Description = "请选择文件路径";
             if (dialog.ShowDialog() == DialogResult.OK)
             {
+                dt.Rows.Clear();
+                dt.Columns.Clear();
                 //dataGridView1.Rows.Clear();
                 //dataGridView1.Columns.Clear();
                 
@@ -35,7 +38,7 @@ namespace frame
                 var files = Directory.GetFiles(foldPath, "*.*", SearchOption.AllDirectories)
                                     .Where(s => s.EndsWith(".xls") || s.EndsWith(".xlsx"));
                 Console.WriteLine(files.Count());
-                DataTable dt = new DataTable();
+
                 dt.Columns.Add("序号", Type.GetType("System.Int32"));
                 dt.Columns[0].AutoIncrement = true;
                 dt.Columns[0].AutoIncrementSeed = 1;
@@ -54,7 +57,7 @@ namespace frame
                 }
                 dataGridView1.DataSource = dt;
 
-                // 
+                // 线程处理计算每个文件的列、行数
                 for (int i = 0; i < this.dataGridView1.Rows.Count; i++)
                 {
                     ThreadPool.QueueUserWorkItem(new WaitCallback(ThreadFunc), this.dataGridView1.Rows[i]);
@@ -62,16 +65,13 @@ namespace frame
                 for (int i = 0; i < this.dataGridView1.Columns.Count; i++)//对于DataGridView的每一个列都调整
                 {
                     this.dataGridView1.AutoResizeColumn(i, DataGridViewAutoSizeColumnMode.AllCells);//将每一列都调整为自动适应模式
-                    //width += this.dataGridView1.Columns[i].Width;//记录整个DataGridView的宽度
                 }
-                Console.WriteLine(".....");
             }
         }
 
         public void ThreadFunc(object state)
         {
             DataGridViewRow row = (DataGridViewRow)state;
-            Console.WriteLine(row.Cells["文件"]);
 
             String filePath = row.Cells["文件"].Value.ToString();
             FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read);
@@ -88,15 +88,34 @@ namespace frame
 
             DataSet result = excelReader.AsDataSet();
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < result.Tables[0].Columns.Count; i++)
+            if (this.checkBox1.Checked)
             {
-                DataColumn col = result.Tables[0].Columns[i];
-                sb.Append(col.ToString());
-                Console.WriteLine(col);
+                DataRow dataRow = result.Tables[0].Rows[0];
+                foreach (var item in dataRow.ItemArray)
+                {
+                    sb.Append(item).Append(",");
+                }
             }
-            row.Cells["包含列"].Value = sb.ToString();
             
+            sb.Length = sb.Length - 1;
+            //row.Cells["包含列"].Value = sb.ToString();
+            UpdateGV(row.Cells["包含列"], sb.ToString());
+            DataGridViewCell cell = row.Cells["数据行数"];
+            
+            //InvokeHelper.Set(row.Cells["数据行数"], "Value", row.DataGridView.RowCount);
+            //row.Cells["数据行数"].Value = row.DataGridView.RowCount;
+            UpdateGV(row.Cells["数据行数"], result.Tables[0].Rows.Count - 1);
             excelReader.Close();
+        }
+
+        delegate void UpdateDataGridView(DataGridViewCell dell, object value);
+        private void UpdateGV(DataGridViewCell cell, object value) {
+            if (dataGridView1.InvokeRequired)
+            {
+                this.BeginInvoke(new UpdateDataGridView(UpdateGV), new object[] { cell, value });
+            } else {
+                cell.Value = value;
+            }
         }
 
         private void labelSelectTable_Click(object sender, EventArgs e)
@@ -107,38 +126,7 @@ namespace frame
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String filePath = @"C:\\hotel_2222.xlsx";
-            FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read);
-            IExcelDataReader excelReader = null;
-            if (filePath.EndsWith(".xls"))
-            {
-                //Choose one of either 1 or 2
-                //1. Reading from a binary Excel file ('97-2003 format; *.xls)
-                excelReader = ExcelReaderFactory.CreateBinaryReader(stream);
-            }
-            if (filePath.EndsWith(".xlsx"))
-            {
-                //2. Reading from a OpenXml Excel file (2007 format; *.xlsx)
-                excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);
-            }
-
-            //Choose one of either 3, 4, or 5
-            //3. DataSet - The result of each spreadsheet will be created in the result.Tables
-            DataSet result = excelReader.AsDataSet();
-
-            //4. DataSet - Create column names from first row
-            //excelReader.IsFirstRowAsColumnNames = true;
-            //DataSet result = excelReader.AsDataSet();
-
-            ////5. Data Reader methods
-            //while (excelReader.Read())
-            //{
-            //    //excelReader.GetInt32(0);
-            //}
-
-            //6. Free resources (IExcelDataReader is IDisposable)
-            excelReader.Close();
-            dataGridView1.DataSource = result.Tables[0];
+            
         }
     }
 }

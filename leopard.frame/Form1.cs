@@ -332,13 +332,13 @@ namespace framework
 
         private void fffToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 f = new Form3();
+            LoginForm f = new LoginForm();
             f.Show();
         }
 
         private void ReloadMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 f = new Form3();
+            LoginForm f = new LoginForm();
             f.Show();
         }
 

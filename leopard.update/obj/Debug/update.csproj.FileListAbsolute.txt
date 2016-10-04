@@ -19,3 +19,17 @@ C:\work\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.dll
 C:\work\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.Linq.dll
 C:\work\leopard_client_v1\leopard.update\bin\Debug\Excel.pdb
 C:\work\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.xml
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\update.exe.config
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\update.exe
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\update.pdb
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\Excel.dll
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.dll
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.Linq.dll
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\Excel.pdb
+C:\work\workspaces\leopard_client_v1\leopard.update\bin\Debug\System.Data.SQLite.xml
+C:\work\workspaces\leopard_client_v1\leopard.update\obj\Debug\upate.UpdateForm.resources
+C:\work\workspaces\leopard_client_v1\leopard.update\obj\Debug\update.Properties.Resources.resources
+C:\work\workspaces\leopard_client_v1\leopard.update\obj\Debug\update.csproj.GenerateResource.Cache
+C:\work\workspaces\leopard_client_v1\leopard.update\obj\Debug\update.exe
+C:\work\workspaces\leopard_client_v1\leopard.update\obj\Debug\update.pdb

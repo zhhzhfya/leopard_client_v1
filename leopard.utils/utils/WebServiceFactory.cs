@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using hessiancsharp.client;
+using leopard.utils.utils;
 
 namespace framework.utils
 {
     public class WebServiceFactory
     {
         private static HessianService hService = null;
+
+        public static string hessianUrl = ConfigHelper.Get("hessianUrl");// "http://192.168.6.179:8080/hessian";
 
         public static HessianService HService
         {
@@ -16,16 +19,15 @@ namespace framework.utils
                 if (hService == null)
                 {
                     CHessianProxyFactory factory = new CHessianProxyFactory();
-                    string url = "http://192.168.6.179:8080/hessian";
-                    hService = (HessianService)factory.Create(Type.GetType("svn_logs.utils.HessianService"), url);
+                    hService = (HessianService)factory.Create(Type.GetType("framework.utils.HessianService"), hessianUrl);
                 }
                 return hService;
             }
         }
 
-        public static object[] findResultBySql(string sql)
+        public static object[] findResultBySql(string sql, bool withColumn)
         {
-            return HService.findResultBySql(sql);
+            return HService.findResultBySql(sql, withColumn);
         }
 
         public static object[] findResultByPage(string sql, int page, int count)
@@ -35,8 +37,7 @@ namespace framework.utils
 
         public static void sqlToGrids(System.Windows.Forms.DataGridView dgv, string sql)
         {
-
-            object[] result = findResultBySql(sql);
+            object[] result = findResultBySql(sql, false);
             if (result != null)
             {
                 int columnSize = Int32.Parse(result[0].ToString());
@@ -57,9 +58,10 @@ namespace framework.utils
             //同步调用
             dgv.Rows.Clear();
             dgv.Columns.Clear();
-            object[] result = findResultBySql(sql);
+            object[] result = findResultBySql(sql, true);
             if (result != null)
             {
+                // 列的数量
                 int columnSize = Int32.Parse(result[0].ToString());
                 if (columnSize > 0)
                 {
@@ -71,7 +73,7 @@ namespace framework.utils
                         {
                             for (int j = 0; j < o.Length; j++)
                             {
-                                dgv.Columns.Add("resultcolumn" + i, o[j].ToString());
+                                dgv.Columns.Add("resultcolumn" + j, o[j].ToString());
                             }
                         }
                         else
