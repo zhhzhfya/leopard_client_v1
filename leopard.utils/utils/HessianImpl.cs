@@ -9,5 +9,6 @@ namespace framework.utils
     {
         object[] findResultBySql(string sql, bool withColumn);
         object[] findResultByPage(string sql, int page, int count);
+        void doAct(string servId, string act, object[] objects);
     }
 }

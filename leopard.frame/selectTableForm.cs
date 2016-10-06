@@ -33,7 +33,7 @@ namespace frame
             // 查询表数据
             string sql = "select table_name, table_comment from information_schema.tables  where table_schema='check' order by table_name asc";
             WebServiceFactory.sqlToGridWithHeader(this.dataGridView1, sql);
-            dt = DataGridView2DataTable(this.dataGridView1, "", 333);
+            dt = GetDataTableFromDGV(this.dataGridView1);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -45,41 +45,33 @@ namespace frame
             dataGridView1.DataSource = q1.AsDataView();
         }
 
-        public DataTable DataGridView2DataTable(DataGridView dgv, String tblName, int minRow = 0)
+        private DataTable GetDataTableFromDGV(DataGridView dgv)
         {
-
-            DataTable dt = new DataTable(tblName);
-
-            // Header columns
+            var dt = new DataTable();
             foreach (DataGridViewColumn column in dgv.Columns)
             {
-                DataColumn dc = new DataColumn(column.HeaderText.ToString());
-                dt.Columns.Add(dc);
+                if (column.Visible)
+                {
+                    dt.Columns.Add(new DataColumn(column.HeaderText));
+                }
             }
 
-            // Data cells
-            for (int i = 0; i < dgv.Rows.Count; i++)
+            object[] cellValues = new object[dgv.Columns.Count];
+            foreach (DataGridViewRow row in dgv.Rows)
             {
-                DataGridViewRow row = dgv.Rows[i];
-                DataRow dr = dt.NewRow();
-                for (int j = 0; j < dgv.Columns.Count; j++)
+                for (int i = 0; i < row.Cells.Count; i++)
                 {
-                    dr[j] = (row.Cells[j].Value == null) ? "" : row.Cells[j].Value.ToString();
+                    cellValues[i] = row.Cells[i].Value;
                 }
-                dt.Rows.Add(dr);
+                dt.Rows.Add(cellValues);
             }
 
-            // Related to the bug arround min size when using ExcelLibrary for export
-            for (int i = dgv.Rows.Count; i < minRow; i++)
-            {
-                DataRow dr = dt.NewRow();
-                for (int j = 0; j < dt.Columns.Count; j++)
-                {
-                    dr[j] = "  ";
-                }
-                dt.Rows.Add(dr);
-            }
             return dt;
+        }
+
+        private void dataGridView1_DoubleClick(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using hessiancsharp.client;
 using leopard.utils.utils;
+using System.Data;
 
 namespace framework.utils
 {
@@ -53,6 +54,36 @@ namespace framework.utils
             }
         }
 
+        public static DataTable sqlToDataTable(string sql)
+        {
+            DataTable dt = new DataTable();
+            object[] result = findResultBySql(sql, true);
+            if (result != null)
+            {
+                int columnSize = Int32.Parse(result[0].ToString());
+                if (columnSize > 0)
+                {
+                    for (int i = 0; i < (result.Length - 1) / columnSize; i++)
+                    {
+                        object[] o = new object[columnSize];
+                        Array.Copy(result, i * columnSize + 1, o, 0, columnSize);
+                        if (i == 0)
+                        {
+                            for (int j = 0; j < o.Length; j++)
+                            {
+                                dt.Columns.Add(new DataColumn(o[j].ToString()));
+                            }
+                        }
+                        else
+                        {
+                            dt.Rows.Add(o);
+                        }
+                    }
+                }
+            }
+            return dt;
+        }
+
         public static void sqlToGridWithHeader(System.Windows.Forms.DataGridView dgv, string sql)
         {
             //同步调用
@@ -83,6 +114,11 @@ namespace framework.utils
                     }
                 }
             }
+        }
+
+        public static void doAct()
+        {
+            
         }
     }
 }
