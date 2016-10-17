@@ -29,3 +29,4 @@ C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.Prope
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.csproj.GenerateResource.Cache
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.dll
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.pdb
+C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.csprojResolveAssemblyReference.cache

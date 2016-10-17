@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using leopard.utils;
 
 namespace frame
 {
@@ -29,9 +30,7 @@ namespace frame
         private void button1_Click(object sender, EventArgs e)
         {
             dt = new DataTable();
-            string mySqlConnStr = "server=192.168.4.13;user id=root;password=root;database=jeesite;CharSet=utf8;pooling=false;"; //根据自己的设置
-            myCon = new MySqlConnection(mySqlConnStr);
-            myCon.Open();
+            myCon = MysqlConnectionPool.getInstance().getConnection();
             da = new MySqlDataAdapter("select * from orders", myCon);
             cb = new MySqlCommandBuilder(da);
             da.Fill(dt);

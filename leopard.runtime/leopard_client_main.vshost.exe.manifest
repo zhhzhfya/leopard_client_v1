@@ -113,31 +113,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>T5GgdnPtt46+lZZQuh0PYEZKl+U=</dsig:DigestValue>
+        <dsig:DigestValue>+F+jFoO/s2A4CSt3tq69n3Sr6xY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="53760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="54784">
       <assemblyIdentity name="leopard.utils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NrOjqnbWydtIzTmBRgKG4mGMxqo=</dsig:DigestValue>
+        <dsig:DigestValue>TrR8hlqFGqaUwrkOc7ctbEzdFj0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="316416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="316928">
       <assemblyIdentity name="leopard_client_main" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4M87xPlvJgaIpP3QyO+DsUReWuk=</dsig:DigestValue>
+        <dsig:DigestValue>ThsIbHEdhVNFl6qhcv2x7ARvHpE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -210,13 +210,13 @@
       <dsig:DigestValue>hcl/u+tPFJOZnAoaxFJW5s28AEk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="leopard_client_main.exe.config" size="620">
+  <file name="leopard_client_main.exe.config" size="739">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>O5AfH2iD0MUbvuwasqLh8ws1UMA=</dsig:DigestValue>
+      <dsig:DigestValue>5hFQdgzRP+91qzyoMEmVxE6lzGM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="warning.ico" size="25214">

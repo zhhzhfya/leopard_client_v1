@@ -26,3 +26,4 @@ C:\work\workspaces\leopard_client_v1\leopard.core\obj\Debug\leopard.core.Propert
 C:\work\workspaces\leopard_client_v1\leopard.core\obj\Debug\leopard.core.csproj.GenerateResource.Cache
 C:\work\workspaces\leopard_client_v1\leopard.core\obj\Debug\leopard.core.dll
 C:\work\workspaces\leopard_client_v1\leopard.core\obj\Debug\leopard.core.pdb
+C:\work\workspaces\leopard_client_v1\leopard.core\obj\Debug\leopard.core.csprojResolveAssemblyReference.cache
