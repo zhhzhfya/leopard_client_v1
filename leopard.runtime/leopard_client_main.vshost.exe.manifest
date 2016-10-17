@@ -113,31 +113,55 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yd1Mhg1SKIiUo3F7RESg06qWF4M=</dsig:DigestValue>
+        <dsig:DigestValue>T5GgdnPtt46+lZZQuh0PYEZKl+U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="52736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="53760">
       <assemblyIdentity name="leopard.utils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>AXlOiI4XJ6wE9Qj7tMYvcJa/RjA=</dsig:DigestValue>
+        <dsig:DigestValue>NrOjqnbWydtIzTmBRgKG4mGMxqo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="314368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="316416">
       <assemblyIdentity name="leopard_client_main" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>6V0Zo3KjfXSVxFTdJmyL77LX7jw=</dsig:DigestValue>
+        <dsig:DigestValue>4M87xPlvJgaIpP3QyO+DsUReWuk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="315392">
+      <assemblyIdentity name="log4net" version="1.2.15.0" publicKeyToken="669E0DDF0BB1AA2A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>IfR6+OMVyQNKbt5a0GXwhLq6qs8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="278528">
+      <assemblyIdentity name="MySql.Data" version="5.1.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Tf8uAk7xGd71pcmx1ZsSsGu8wNs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

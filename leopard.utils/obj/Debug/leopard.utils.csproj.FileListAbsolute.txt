@@ -25,7 +25,6 @@ C:\work\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.csprojResolveAss
 C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.utils.dll.config
 C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.utils.dll
 C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.utils.pdb
-C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.csprojResolveAssemblyReference.cache
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.Properties.Resources.resources
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.csproj.GenerateResource.Cache
 C:\work\workspaces\leopard_client_v1\leopard.utils\obj\Debug\leopard.utils.dll

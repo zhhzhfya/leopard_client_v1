@@ -24,9 +24,11 @@ C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\deploy.tools.exe
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\deploy.tools.pdb
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\Excel.dll
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\log4net.dll
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\System.Data.SQLite.dll
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\System.Data.SQLite.Linq.dll
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\Excel.pdb
+C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\log4net.xml
 C:\work\workspaces\leopard_client_v1\deploy.tools\bin\Debug\System.Data.SQLite.xml
 C:\work\workspaces\leopard_client_v1\deploy.tools\obj\Debug\deploy.tools.DeployMain.resources
 C:\work\workspaces\leopard_client_v1\deploy.tools\obj\Debug\deploy.tools.Properties.Resources.resources

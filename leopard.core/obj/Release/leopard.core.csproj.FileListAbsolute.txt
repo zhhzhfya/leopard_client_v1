@@ -18,3 +18,10 @@ C:\work\leopard_client_v1\leopard.core\obj\Release\leopard.core.Properties.Resou
 C:\work\leopard_client_v1\leopard.core\obj\Release\leopard.core.csproj.GenerateResource.Cache
 C:\work\leopard_client_v1\leopard.core\obj\Release\leopard.core.dll
 C:\work\leopard_client_v1\leopard.core\obj\Release\leopard.core.pdb
+C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.core.dll.config
+C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.core.dll
+C:\work\workspaces\leopard_client_v1\leopard.runtime\leopard.core.pdb
+C:\work\workspaces\leopard_client_v1\leopard.core\obj\Release\leopard.core.Properties.Resources.resources
+C:\work\workspaces\leopard_client_v1\leopard.core\obj\Release\leopard.core.csproj.GenerateResource.Cache
+C:\work\workspaces\leopard_client_v1\leopard.core\obj\Release\leopard.core.dll
+C:\work\workspaces\leopard_client_v1\leopard.core\obj\Release\leopard.core.pdb

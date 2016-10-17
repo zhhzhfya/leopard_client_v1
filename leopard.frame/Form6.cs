@@ -86,12 +86,8 @@ namespace frame
 
         private void button2_Click(object sender, EventArgs e)
         {
-            System.IO.Directory.GetFiles("C:\\", "(*.exe|*.txt)");
-            string[] files = Directory.GetFiles(@"c:\", "(*.xls|*.xlsx)");
-            foreach (string file in files)
-            {
-                MessageBox.Show(file);
-            }
+            MysqlDBForm mf = new MysqlDBForm();
+            mf.Show();
         }
 
     }
