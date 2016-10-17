@@ -14,3 +14,8 @@ C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.Properties.Resourc
 C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csproj.GenerateResource.Cache
 C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.dll
 C:\work\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csprojResolveAssemblyReference.cache
+E:\work\workspace_c#\leopard_client_v1\leopard.runtime\leopard.utils.dll.config
+E:\work\workspace_c#\leopard_client_v1\leopard.runtime\leopard.utils.dll
+E:\work\workspace_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.Properties.Resources.resources
+E:\work\workspace_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.csproj.GenerateResource.Cache
+E:\work\workspace_c#\leopard_client_v1\leopard.utils\obj\x86\leopard.utils.dll

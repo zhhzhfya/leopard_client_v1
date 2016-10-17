@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://192.168.6.179/leopard/leopard_client_main.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="leopard_client_main.exe.manifest" size="11031">
+    <dependentAssembly dependencyType="install" codebase="leopard_client_main.exe.manifest" size="10352">
       <assemblyIdentity name="leopard_client_main.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>raTt/lhW+5hW9svCucGzEZqSpCs=</dsig:DigestValue>
+        <dsig:DigestValue>7qoV7PxkPvu46OSXV6MBcFAzMyc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

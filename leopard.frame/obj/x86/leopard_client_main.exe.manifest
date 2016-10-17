@@ -58,18 +58,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="C1.Win.C1FlexGrid.2.dll" size="655360">
-      <assemblyIdentity name="C1.Win.C1FlexGrid.2" version="2.6.20062.255" publicKeyToken="79882D576C6336DA" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>cotsyhOMOaZynup0ksRY+ILyKjo=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Excel.dll" size="68608">
       <assemblyIdentity name="Excel" version="2.1.2.3" publicKeyToken="93517DBE6A4012FA" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -113,31 +101,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ePRA3lPOciZ9h6EsfHdN2D0Iz28=</dsig:DigestValue>
+        <dsig:DigestValue>EjNCiqph+yiQieIxUlUQUKWZHvQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="49152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard.utils.dll" size="53760">
       <assemblyIdentity name="leopard.utils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>mXfkn3iGGtd9dxQPObvUwXbz6GY=</dsig:DigestValue>
+        <dsig:DigestValue>wiolxFsqsLiHpEfcC9xDDJLP5Ns=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="308224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="leopard_client_main.exe" size="314368">
       <assemblyIdentity name="leopard_client_main" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/V8B1rTnjyPLwh7EOFlQEv7XOTk=</dsig:DigestValue>
+        <dsig:DigestValue>KoAG9XLoI/dc7pPu80cIVcIhiqA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -186,13 +174,13 @@
       <dsig:DigestValue>hcl/u+tPFJOZnAoaxFJW5s28AEk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="leopard_client_main.exe.config" size="403">
+  <file name="leopard_client_main.exe.config" size="612">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>br28jFA3uUktzi8p9LORqgZLpzQ=</dsig:DigestValue>
+      <dsig:DigestValue>PuT8ICU3GKoaygIX55xnD4SB3MQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="warning.ico" size="25214">

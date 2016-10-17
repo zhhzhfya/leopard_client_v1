@@ -23,5 +23,10 @@ namespace framework
             this.comboBox1.Items.Add(value);
             this.comboBox1.SelectedText = value;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace frame
 {
     public partial class selectTableForm : Form
     {
-        DataTable dt = null;
+        DataTable dt = new DataTable();
         public selectTableForm()
         {
             InitializeComponent();
@@ -71,7 +71,20 @@ namespace frame
 
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
+            if (this.dataGridView1.SelectedRows.Count > 1)
+            {
+                
+            }
+        }
 
+        private void dataGridView1_DragOver(object sender, DragEventArgs e)
+        {
+            Console.WriteLine("drag over");
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine(e);
         }
     }
 

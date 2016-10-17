@@ -10,3 +10,9 @@ C:\work\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.DeployMain.resources
 C:\work\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.Properties.Resources.resources
 C:\work\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.csproj.GenerateResource.Cache
 C:\work\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.exe
+E:\work\workspace_c#\leopard_client_v1\leopard.runtime\deploy.tools.exe.config
+E:\work\workspace_c#\leopard_client_v1\leopard.runtime\deploy.tools.exe
+E:\work\workspace_c#\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.DeployMain.resources
+E:\work\workspace_c#\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.Properties.Resources.resources
+E:\work\workspace_c#\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.csproj.GenerateResource.Cache
+E:\work\workspace_c#\leopard_client_v1\deploy.tools\obj\x86\deploy.tools.exe
