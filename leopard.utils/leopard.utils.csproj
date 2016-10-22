@@ -110,7 +110,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConnectionPool.cs" />
+    <Compile Include="utils\ConnectionPool.cs" />
     <Compile Include="Internet.cs" />
     <Compile Include="UtilsForm.cs">
       <SubType>Form</SubType>
